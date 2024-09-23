@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Background gradient */
+}
+
+.stopwatch {
+    text-align: center;
+    background-color: #ffffff; /* White background for the stopwatch container */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); /* Stronger shadow */
+}
+
+#display {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.controls {
+    margin-bottom: 20px;
+}
+
+.controls button {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    background-color: #007bff; /* Button color */
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.controls button:hover {
+    background-color: #0056b3; /* Darker button color on hover */
+}
+
+#laps {
+    list-style: none;
+    padding: 0;
+}
+
+#laps li {
+    font-size: 1.2em;
+    margin: 5px 0;
+    background-color: #e9ecef; /* Light gray background for lap times */
+    padding: 10px;
+    border-radius: 5px;
+}
